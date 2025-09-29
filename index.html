@@ -10,43 +10,54 @@
         <form method="get">
     <h1>
         School Survey!
+        
     </h1>
     <h3>Which class is most difficult, chosing from the options shown?</h3>
     <p>Classes related to STEM help with <strong><em>critical thinking!</em></strong></p>
     <!-- Images, text, and button for the radio-->
-        <img height=30 width =40 src="codingproject\biology.jpg" alt="image error">
-            <input type = "radio" id="biologyradio" name="favoriteClass" value="Biology">
-            <label for="biologyradio">Biology</label> <br>
+
+                <img height=30 width =40 src="codingproject\biology.jpg" alt="image error">
+                <input type = "radio" id="biologyradio" name="difficultClass" value="Biology">
+                <label for="biologyradio">Biology</label> <br>
+
                 <img height=30 width =40 src="codingproject\english.jpg" alt="image error">
-                <input type = "radio" id="englishradio" name="favoriteClass" value="English">
+                <input type = "radio" id="englishradio" name="difficultClass" value="English">
                 <label for="englishradio">English</label><br>
+
                 <img height=30 width =40 src="codingproject\physics.png" alt="image error">
-                <input type = "radio" id="physicsradio" name="favoriteClass" value="Physics">
+                <input type = "radio" id="physicsradio" name="difficultClass" value="Physics">
                 <label for="physicsradio">Physics</label><br>
+
                 <img height=30 width =40 src="codingproject\art.jpg" alt="image error">
-                <input type = "radio" id="artradio" name="favoriteClass" value="Art">
+                <input type = "radio" id="artradio" name="difficultClass" value="Art">
                 <label for="artradio">Art</label><br>
+
                 <img height=30 width =40 src="codingproject\math.jpg" alt="image error">
-                <input type = "radio" id="mathradio" name="favoriteClass" value="Math">
+                <input type = "radio" id="mathradio" name="difficultClass" value="Math">
                 <label for="mathradio">Math</label><br>
+
                 <img height=30 width =40 src="codingproject\history.jpg" alt="image error">
-                <input type = "radio" id="History" name="favoriteClass" value="History">
+                <input type = "radio" id="History" name="difficultClass" value="History">
                 <label for="historyradio">History</label>
 
                 <p><label for="unlisteddifficultclass">If your class isn't listed, type in the class you find most difficult and explain why. </label></p>
-                <p><input type="text" for="otherfavoriteclass" name="difficultclasss" placeholder="Your most difficult class"></p>
-                <input type="submit"><br><br>
+                <p><input id = "unlisteddifficultclass" type="text" name="otherdifficultClass" placeholder="Text Here"></p>
                 
-                <h3><label id="funnestclass">How long does it take you to get to school?</label></h3>
-                <select id="time" name="time">
-                <option value="5min"><5 minutes</option>
+                
+                <h3><label for="time">How long does it take you to get to school?</label></h3>
+                <select id="time" name="timetoschool">
+                <option value="5min"> less than 5 minutes</option>
                 <option value="5min">5 minutes</option>
-
                 <option value="10min">10 minutes</option>
                 <option value="20min">20 minutes</option>
                 <option value="30min">30 minutes</option>
-                <option value="30plusmin">30+ minutes</option>
+                <option value="30plusmin">30+ minutes</option><br>
+                </select><br><br>
+                <input type="submit"><br><br>
+                                <a href="informational.html">Head to the informational page!</a>
 
+                
+                
 
 
 
